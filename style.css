@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+:root{
+    --bg: hsl(225, 100%, 94%);
+    --card: #fff;
+    --box:hsl(223, 100%, 98%);
+    --texte:hsl(224, 23%, 55%);
+    --titel:hsl(223, 47%, 23%);
+    --button: hsl(245, 75%, 52%);
+    --hover:#766cf1;
+}
+body{
+    background: url(./images/pattern-background-desktop.svg) var(--bg);
+    background-size:contain; 
+    background-repeat:no-repeat
+}
+.container{
+    width: 360px;
+    height: 570px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--card);
+    border-radius: 15px;
+}
+.container img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    padding-bottom: 5px;
+}
+
+.titel{
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--titel);
+    padding:15px 0;
+    font-weight: 800;
+}
+
+.texte{
+    text-align: center;
+    font-size: 1rem;
+    color: var(--texte);
+    padding:5px 30px 20px 30px;
+}
+.box{
+    background: var(--box);
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+.box img{
+    width: 50px;
+    height: 50px;
+}
+.box .img-price{
+    display: flex;
+    align-items: center;
+}
+.img-price .pargrphe{
+    padding-left: 10px;
+}
+.img-price .pargrphe p:nth-child(1){
+    color: var(--titel);
+    font-weight: 600;
+    font-size: smaller;
+    margin: 0 0 5px 0;
+}
+.img-price .pargrphe p:nth-child(2){
+    color:var(--texte) ;
+    font-size: smaller;
+}
+.change a{
+    transition: all 100ms linear;
+}
+.change a:hover{
+    text-decoration: none;
+    color: var(--hover);
+}
+.button{
+    padding-top: 20px;
+}
+.button a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.button .complet{
+    background: var(--button);
+    color:#fff;
+    margin: 5px 30px;
+    border-radius: 15px;
+    padding: 13px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    transition: all 100ms linear;
+    box-shadow: #776cf16c 0px 19px 38px,  0px 15px 12px;
+}
+.button .complet:hover{
+    background: var(--hover);
+}
+.button .cancel{
+    color: var(--texte);
+    margin-top: 40px ;
+    transition: all 100ms linear;
+    font-weight: 600;
+}
+.button .cancel:hover{
+    color:var(--titel);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: fixed;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
